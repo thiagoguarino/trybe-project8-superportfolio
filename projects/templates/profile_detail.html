@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}
+Profile details
+{% endblock %}
+
+{% block content %}
+
+<div>
+  <h1>Name: {{ profile.name }}</h1>
+  <h2>Profile: {{ profile.bio }}</h2>
+  <a href="{{ profile.linkedin }}">LinkedIn</a>
+  <a href="{{ profile.github }}">GitHub</a>
+</div>
+<div>
+  <h3>Projects</h3>
+</div>
+<div>
+  {% for project in projects %}
+  <div>
+    <h4>Project: {{ project.name }}</h4>
+    <p>Description: {{ project.description }}</p>
+    <p>Keyword: {{ project.keyword }}</p>
+    <p>Skill: {{ project.key_skill }}</p>
+  </div>
+  {% endfor %}
+</div>
+<div>
+  <h3>Certifications</h3>
+</div>
+<div>
+  {% for certificate in certificates %}
+  <div>
+    <h4>Name: {{ certificate.name }}</h4>
+    <p>{{ certificate.certifying_institution }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
