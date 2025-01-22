@@ -1,30 +1,14 @@
 # Boas-vindas ao repositório do projeto Super Portfólio
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir! #vqv 🚀
-
-Aqui, você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do [Código de Conduta e do Manual da Pessoa Estudante da Trybe](https://app.betrybe.com/learn/student-manual/codigo-de-conduta-da-pessoa-estudante).
 
 # Entregáveis
-
-<details>
-<summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-Para entregar o seu projeto, você deverá criar um _Pull Request_ neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/fc998c60-386e-46bc-83ca-4269beb17e17/section/fe827a71-3222-4b4d-a66f-ed98e09961af/day/1a530297-e176-4c79-8ed9-291ae2950540/lesson/2b2edce7-9c49-4907-92a2-aa571f823b79) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-
-</details>
 
 </details>
 
 <details>
 <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary><br />
 
-Neste projeto, você vai praticar os seus conhecimentos em Django e Django Rest Framework. Você irá desenvolver uma API para gerenciamento de dados de perfil e projetos em um super portfólio. Vamos lá? 🤩
+Neste projeto, você vai praticar os seus conhecimentos em Django e Django Rest Framework. Você irá desenvolver uma API para gerenciamento de dados de perfil e projetos em um super portfólio.
 
 </details>
 
@@ -38,97 +22,6 @@ Neste projeto, verificamos se você é capaz de:
 
 </details>
 
-# Orientações que você já conhece 😉
-
-<details>
-
-   <summary><strong>‼ Antes de começar a desenvolver </strong></summary><br />
-
-1. Este projeto usa dependências que não são funcionais em todas as versões do Python. Por isso, recomendamos que seu Python esteja na versão `3.10.0` ou superior. Você pode usar o `Pyenv`, basta seguir nosso tutorial sobre [instalação e uso do Pyenv](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/aa76abc8-b842-40d9-b5cc-baa960952129/lesson/0fe67ea0-1046-4b55-a37c-44afcfa9ed0a).
-  
-> ⚠️ **ATENÇÃO: NUNCA REMOVA VERSÕES ANTIGAS INSTALADAS DO PYTHON. SEU SISTEMA OPERACIONAL PODE DEPENDER DELAS!** ⚠️
-
-2. Para conseguir instalar a dependência `mysqlclient` você precisa garantir a existência de algumas bibliotecas no seu sistema operacional:
-
-- **Debian/Ubuntu**
-```bash
-sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config
-```
-
-- **Mac**
-```bash
-brew install mysql pkg-config
-```
-
-3. Clone o repositório
-
-- Use o comando: `git clone git@github.com:tryber/python-001-projeto-super-portfolio.git`
-- Entre na pasta do repositório que você acabou de clonar:
-  - `cd python-001-projeto-super-portfolio`
-
-4. Crie uma branch a partir da branch `main`
-
-- Verifique que você está na branch `main`
-  - Exemplo: `git branch`
-- Se você não estiver, mude para a branch `main`
-  - Exemplo: `git checkout main`
-- Agora, crie uma branch à qual você vai submeter os `commits` do seu projeto:
-  - Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`;
-  - Exemplo: `git checkout -b maria-soares-super-portfolio`
-
-5. Crie / altere os arquivos que precisar para desenvolver os requisitos
-
-6. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_:
-  - Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git:
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (devem aparecer listados os arquivos em verde)
-- Faça o `commit` inicial:
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-7. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin maria-soares-super-portfolio`
-
-8. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/python-0x-project-super-portfolio/pulls)
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-- Coloque um título para o seu _Pull Request_
-  - Exemplo: _"Cria tela de busca"_
-- Clique no botão verde _"Create pull request"_
-
-- Adicione uma descrição para o _Pull Request_, um título nítido que o identifique, e clique no botão verde _"Create pull request"_
-
- <img width="1335" alt="Exemplo de pull request" src="https://user-images.githubusercontent.com/42356399/166255109-b95e6eb4-2503-45e5-8fb3-cf7caa0436e5.png">
-
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/python-0x-project-super-portfolio/pulls) e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-
-<summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-Faça `commits` das alterações que você fizer no código regularmente, pois assim você garante visibilidade para o time da Trybe e treina essa prática para o mercado de trabalho :) ;
-
-- Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto;
-- Os comandos que você utilizará com mais frequência são:
-
-  - `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
-  - `git add` _(para adicionar arquivos ao stage do Git)_;
-  - `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
-  - `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_;
-  - `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
-
-</details>
-
 <details>
   <summary><strong>🎛 Linter</strong></summary><br />
 
@@ -137,9 +30,6 @@ Para garantir a qualidade do código, vamos utilizar nesses exercícios o linter
 ```bash
 python3 -m flake8
 ```
-
-⚠️ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS.
-ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 
 </details>
 
@@ -236,29 +126,6 @@ Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse 
 
 </details>
 
-## Quando finalizar o projeto não esquecer
-
-<details>
-<summary><strong>🗂 Compartilhe seu portfólio!</strong></summary>
-  <br />
-
-Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
-<details>
-<summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary>
-  <br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
-**Leva menos de 3 minutos!**
-
-[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH1&template=betrybe/python-0x-projeto-super-portfolio)
-
-</details>
-
-</details>
-
 <details>
 <summary><strong>🎨 Estilize seu projeto</strong></summary>
   <br />
@@ -271,13 +138,14 @@ Você sabia que esse projeto já possui um arquivo de estilização? Após inici
 
 ---
 
-# Requisitos obrigatórios
+# Requisitos
 
-Você é uma pessoa desenvolvedora fullstack que já desenvolveu vários projetos enquanto estudava um conjunto de tecnologias específicas. Agora, sua atenção será direcionada para entrar para o mercado de trabalho e para isso, apresentar um portfólio com todos os seus projetos é algo importantíssimo. Seu objetivo aqui será desenvolver este portfólio com seu perfil, projetos, links importantes do seu LinkedIn e disponibilizá-lo para visualização por meio do deploy via Railway.
+ Seu objetivo aqui será desenvolver este portfólio com seu perfil, projetos, links importantes do seu LinkedIn e disponibilizá-lo para visualização por meio do deploy via Railway.
 
-A seguir está o escopo de cada tarefa que te levará a conclusão do seu Super Portfólio! 🤩
-
-## 1 - Implemente a autenticação com simple JWT
+<details>
+  <summary>
+    <b>1 - Implemente a autenticação com simple JWT</b>
+  </summary>
 
 > <b>🍀 Dica:</b> Antes de iniciar a implementação da autenticação, certifique-se de que tanto o container Docker com o banco de dados quanto o servidor estão rodando.
 
@@ -295,19 +163,13 @@ A seguir está o escopo de cada tarefa que te levará a conclusão do seu Super 
 
 </details>
 
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-- Se ao usar credenciadas incorretas a autenticação falha.
-- Se ao usar credenciadas corretas autenticação é bem sucedida.
-- Se a rota de verificação de token está funcionando corretamente.
-- Se a rota de atualização de token está funcionando corretamente.
-
 </details>
 
-## 2 - Inicie o app `projects` e crie um C.R.U.D para `Profile`
+
+<details>
+  <summary>
+    <b>2 - Inicie o app `projects` e crie um C.R.U.D para `Profile`</b>
+  </summary>
 
 Inicie um app com o nome `projects` e crie um **C.R.U.D.** para o model `Profile`. Para isso, você deve criar as rotas, views e serializers necessários para que seja possível realizar as operações de C.R.U.D. para a model `Profile`.
 
@@ -362,23 +224,13 @@ As operações do C.R.U.D. devem ser acessadas apor meio da rota: `profiles/`, a
 
 </details>
 
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-- Se o app iniciado se chama `projects`.
-- Se o app criado está devidamente instalado no `settings.py`.
-- Se o endpoint `http://localhost:8000/profiles` existe.
-- Se ao acessar a rota `profiles` devidamente autenticado será retornada uma lista completa com todos os perfis cadastrados.
-- Se a rota `profiles` aceitar requisições do tipo `POST` e cria um novo perfil se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `profiles/<id_do_perfil>` aceita requisições do tipo `GET` e retorna o perfil com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `profiles/<id_do_perfil>/` aceita requisições do tipo `PATCH` e atualiza o perfil com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `profiles/<id_do_perfil>/` aceita requisições do tipo `DELETE` e deleta o perfil com o `id` especificado, se a pessoa usuária estiver devidamente autenticada.
-
 </details>
 
-## 3 - Crie um C.R.U.D para `Project`
+
+<details>
+  <summary>
+    <b>3 - Crie um C.R.U.D para `Project`</b>
+  </summary>
 
 Crie um **C.R.U.D.** para o model `Project`. Para isso, você deve criar as rotas, views e serializers necessários para que seja possível realizar as operações de C.R.U.D. para a model `Project`.
 
@@ -431,21 +283,13 @@ As operações do C.R.U.D. devem ser acessadas apor meio da rota: `projects/`, a
 
 </details>
 
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-- Se o endpoint `http://localhost:8000/projects` existe.
-- Se ao acessar a rota `projects` devidamente autenticado será retornada uma lista completa com todos os projetos cadastrados.
-- Se a rota `projects` aceita requisições do tipo `POST` e cria um novo projeto se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `projects/<id_do_projeto>/` aceita requisições do tipo `GET` e retorna o projeto com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `projects/<id_do_projeto>/` aceita requisições do tipo `PATCH` e atualiza o projeto com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `projects/<id_do_projeto>/` aceita requisições do tipo `DELETE` e deleta o projeto com o `id` especificado, se a pessoa usuária estiver devidamente autenticada.
-
 </details>
 
-## 4 - Customize as ViewSets para `Profile`
+
+<details>
+  <summary>
+    <b>4 - Customize as ViewSets para `Profile`</b>
+  </summary>
 
 Customize a ViewSet de `Profile` para que as rotas do tipo `GET` possam ser acessadas sem a necessidade de autenticação, renderizando diretamente um template com todas as informações pertinentes ao invés de haver retorno da API.
 
@@ -501,21 +345,12 @@ class ProfileViewSet(viewsets.ModelViewSet):
 
 </details>
 
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-- Se o endpoint `http://localhost:8000/profiles` existe.
-- Se ao acessar a rota `profiles` mesmo sem autenticação será retornada uma lista completa com todos os perfis cadastrados.
-- Se a rota `profiles/<id_do_perfil>/` aceita requisições do tipo `GET` e retorna o perfil com o `id` especificado.
-- Se a rota `profiles` aceita requisições do tipo `POST` e cria um novo perfil se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `profiles/<id_do_perfil>/` aceita requisições do tipo `PATCH` e atualiza o perfil com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `profiles/<id_do_perfil>/` aceita requisições do tipo `DELETE` e deleta o perfil com o `id` especificado, se a pessoa usuária estiver devidamente autenticada.
-
 </details>
 
-## 5 - Crie um C.R.U.D inline para `Certificate` e `CertifyingInstitution`
+<details>
+  <summary>
+    <b>5 - Crie um C.R.U.D inline para `Certificate` e `CertifyingInstitution`</b>
+  </summary>
 
 Crie um **C.R.U.D.** inline para o model `Certificate` e `CertifyingInstitution`, para que em uma única requisição seja possível ver/criar as instituições certificadoras e seus respectivos certificados em uma única requisição. Para isso, você deve criar as rotas, views e serializers necessários para que seja possível realizar as operações de C.R.U.D. para as models `Certificate` e `CertifyingInstitution`.
 
@@ -582,28 +417,13 @@ As operações do C.R.U.D. devem ser acessadas apor meio das rotas: `certificate
 
 </details>
 
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-- Se o endpoint `http://localhost:8000/certificates/` existe.
-- Se ao acessar a rota `certificates` devidamente autenticado será retornada uma lista completa com todos os certificados cadastrados.
-- Se a rota `certificates` aceita requisições do tipo `POST` e cria um novo certificado se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `certificates/<id_do_certificado>/` aceita requisições do tipo `GET` e retorna o certificado com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `certificates/<id_do_certificado>/` aceita requisições do tipo `PATCH` e atualiza o certificado com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `certificates/<id_do_certificado>/` aceita requisições do tipo `DELETE` e deleta o certificado com o `id` especificado, se a pessoa usuária estiver devidamente autenticada.
-
-- Se o endpoint `http://localhost:8000/certifying-institutions/` existe.
-- Se ao acessar a rota `certifying-institutions` devidamente autenticado será retornada uma lista completa com todos os certificados cadastrados.
-- Se a rota `certifying-institutions` aceita requisições do tipo `POST` e cria uma nova instituição certificadora se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `certifying-institutions/<id_da_instituição-certificadora>/` aceita requisições do tipo `GET` e retorna a instituição certificadora com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `certifying-institutions/<id_da_instituição-certificadora>/` aceita requisições do tipo `PATCH` e atualiza a instituição certificadora com o `id` especificado,  se a pessoa usuária estiver devidamente autenticada.
-- Se a rota `certifying-institutions/<id_da_instituição-certificadora>/` aceita requisições do tipo `DELETE` e deleta a instituição certificadora com o `id` especificado, se a pessoa usuária estiver devidamente autenticada.
-
 </details>
 
-## 6 - Exibir uma página de perfil completa
+
+<details>
+  <summary>
+    <b>6 - Exibir uma página de perfil completa</b>
+  </summary>
 
 O template de `Profile` deve ser atualizado para que seja possível visualizar todas as informações de um perfil, incluindo seus certificados e instituições certificadoras.
 
@@ -618,21 +438,4 @@ O template de `Profile` deve ser atualizado para que seja possível visualizar t
 
 </details>
 
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-- Se ao acessar um perfil é ser possível visualizar os certificados e instituições certificadoras dele.
-  - O **projeto** deve ter seu nome, habilidade-chave e palavra-chave exibidas.
-  - O **certificado** deve exibir seu nome e o nome de sua instituição certificadora.
-
-</details>
-
 ---
-
-# Requisito não avaliativo
-
-## 7. Faça o deploy de seu projeto Django
-
-Para que seu projeto esteja acessível e pronto para ser visualizado por pessoas de recrutamento, fazer deploy dele pode ser um grande diferencial. Lembre-se que sempre que precisar, você pode consultar o material sobre **deploy com Django** do curso. 😉
