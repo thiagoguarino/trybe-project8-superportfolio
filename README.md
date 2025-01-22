@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do projeto Super Portfólio
+# project Super Portfolio
 
 
 # Entregáveis
