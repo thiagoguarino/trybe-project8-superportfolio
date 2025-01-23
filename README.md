@@ -130,9 +130,7 @@ Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse 
 <summary><strong>🎨 Estilize seu projeto</strong></summary>
   <br />
 
-Você sabia que esse projeto já possui um arquivo de estilização? Após iniciar o app `projects`, basta mover para dentro da pasta `projects` a pasta `mova_static` e renomeá-la como `static`. A partir daí, você pode acessar o arquivo `style.css` na pasta `static/css` e personalizar o projeto de acordo com seu gosto. Ou, se preferir, pode usar a estilização que já está lá, e dessa forma seu projeto se parecerá com o projeto da imagem abaixo. Para isso, basta usar as `classes`e os `ids` indicados neste [documento do Figma](https://www.figma.com/file/QmSXGRYh4ygdOqCt9iYpA0/Super-Portf%C3%B3lio?type=design&node-id=0%3A1&mode=design&t=ItePvBriNEV4aBdX-1).
-
-![image](https://github.com/betrybe/python-001-projeto-super-portfolio/assets/78612641/33f6bffd-1ab0-46ef-b28f-7bc625ba8be2)
+Você sabia que esse projeto já possui um arquivo de estilização? Após iniciar o app `projects`, basta mover para dentro da pasta `projects` a pasta `mova_static` e renomeá-la como `static`. A partir daí, você pode acessar o arquivo `style.css` na pasta `static/css` e personalizar o projeto de acordo com seu gosto.
 
 </details>
 
