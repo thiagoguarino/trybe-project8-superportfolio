@@ -135,8 +135,6 @@ Você sabia que esse projeto já possui um arquivo de estilização? Após inici
 
 # Requisitos
 
- Seu objetivo aqui será desenvolver este portfólio com seu perfil, projetos, links importantes do seu LinkedIn e disponibilizá-lo para visualização por meio do deploy via Railway.
-
 <details>
   <summary>
     <b>1 - Implemente a autenticação com simple JWT</b>
