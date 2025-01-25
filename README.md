@@ -12,8 +12,6 @@ Neste projeto, você vai praticar os seus conhecimentos em Django e Django Rest 
 <details>
   <summary><strong>📝 Habilidades a serem trabalhadas</strong></summary><br />
 
-Neste projeto, verificamos se você é capaz de:
-
 - Utilizar o _Django REST Framework_ para criar endpoints com entidades aninhadas.
 - Utilizar o módulo _Simple JWT_ para implementar autenticação no Django REST Framework.
 
